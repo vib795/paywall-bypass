@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  flask-app:
+    build: .
+    container_name: paywall-bypass
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/home/ubuntu/app
+    environment:
+      - FLASK_APP=/home/ubuntu/app/app.py
+      - FLASK_ENV=development
+    command: flask run --host=0.0.0.0
