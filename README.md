@@ -70,7 +70,3 @@ Contributions to this project are welcome. Please fork the repository and open a
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Contact
-
-For any additional questions or comments, please feel free to contact the project maintainers.
